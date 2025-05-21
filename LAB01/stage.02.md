@@ -43,16 +43,16 @@ export class PlantDataService {
 }
 ```
 
-2. Modifica `DashboardPage` para consumir `plants$`:
+2. Modifica `PlantsPage` para consumir `plants$`:
 
 ```ts
 @Component({
   selector: 'app-dashboard',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './dashboard.page.html',
+  templateUrl: './plants.page.html',
 })
-export class DashboardPage implements OnInit {
+export class PlantsPage implements OnInit {
   plants$ = this.data.plants$;
   constructor(private data: PlantDataService) {}
   ngOnInit() {
@@ -61,7 +61,7 @@ export class DashboardPage implements OnInit {
 }
 ```
 
-3. Modifica `dashboard.page.html`:
+3. Modifica `plants.page.html`:
 
 ```html
 <section *ngIf="plants$ | async as plants; else loading">
