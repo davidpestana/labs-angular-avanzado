@@ -30,21 +30,13 @@ Este repositorio contiene los laboratorios prácticos del curso **Angular Avanza
 
 ---
 
-### 🟥 LAB04.1 – Seguridad avanzada (anexo aislado)
+### 🟥 LAB04 – Seguridad  
 > Simulación de autenticación, protección de rutas, gestión de roles y token JWT.
 
 - `LAB04.1/readme.md`
 - Stages: `stage.01.md` → `stage.07.md`
 
 > ⚠️ Este laboratorio es **aislado del proyecto principal**. No continúa el flujo técnico iterativo, ya que trabaja sobre integración de OAuth2/OIDC y modelos de sesión no acoplables al resto.
-
----
-
-### 🟦 LAB04.2 – Optimización de rendimiento con integracion de seguridad y autenticacion
-> Estrategias avanzadas con ChangeDetection, lazy loading, depuración de bundles y presupuestos.
-
-- `LAB04.2/readme.md`
-- Stages: `stage.01.md` → `stage.07.md`
 
 ---
 
