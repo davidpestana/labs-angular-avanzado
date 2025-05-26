@@ -23,7 +23,7 @@ src/app/pages/plants/
 1. Instala señal-store si no está:
 
 ```bash
-npm install @ngrx/signals @ngrx/signals-store
+npm install @ngrx/signals
 ```
 
 2. Crea `PlantFilterStore`:
