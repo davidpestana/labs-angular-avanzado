@@ -48,7 +48,7 @@ export class PlantFilterStore extends signalStore({
     <input type="text" [value]="store.search()" (input)="store.setSearch($event.target.value)" />
     <label><input type="checkbox" [checked]="store.onlyActive()" (change)="store.toggleOnlyActive()" /> Solo activas</label>
   `,
-  providers: [provideStore(PlantFilterStore)]
+  providers: [PlantFilterStore]
 })
 export class PlantFilterComponent {
   constructor(public store: PlantFilterStore) {}
