@@ -54,10 +54,3 @@ Este repositorio contiene los laboratorios prácticos del curso **Angular Avanza
 - `LAB06/readme.md`
 - Stages: `stage.01.md` → `stage.06.md`
 
----
-
-## 📝 Recomendaciones
-
-- Los laboratorios se pueden cursar secuencialmente (LAB01 → LAB06), excepto **LAB04.1**, que puede abordarse de forma independiente.
-- Cada `stage` debe ejecutarse sobre el resultado del anterior salvo indicación explícita.
-
