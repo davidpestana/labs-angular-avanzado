@@ -34,15 +34,7 @@ export class PlantFilterStore extends signalStore({
   state: withState(() => ({
     search: '',
     onlyActive: false
-  })),
-  selectors: ({ state, signals }) => ({
-    search: signals.search,
-    onlyActive: signals.onlyActive
-  }),
-  updaters: ({ update }) => ({
-    setSearch: (term: string) => update(s => ({ ...s, search: term })),
-    toggleOnlyActive: () => update(s => ({ ...s, onlyActive: !s.onlyActive }))
-  })
+  }))
 }) {}
 ```
 
