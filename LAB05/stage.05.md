@@ -44,6 +44,12 @@ ng build hello-widget --configuration=production
 
 * 🔁 CDN: subir el archivo `main.js` a un bucket S3, GitHub Pages, Netlify, etc.
 * 📦 NPM: crear `package.json`, definir `exports`, y publicar con `npm publish` si está configurado.
+* Hacer el roolup
+```bash
+  cat dist/hello-widget/runtime.js \
+    dist/hello-widget/polyfills.js \
+    dist/hello-widget/main.js > dist/hello-widget/hello-widget.bundle.js
+```
 
 6. Importar en otro entorno:
 
